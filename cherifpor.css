@@ -47,7 +47,7 @@ body {
 
 .navbar a {
     font-size: 18px;
-    color: rgb(26, 83, 132);
+    color: rgb(27, 106, 190);
     text-decoration: none;
     font-weight: 500;
     margin-left: 20px;
@@ -56,7 +56,7 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-    color: #00abf0;
+    color: hsl(235, 100%, 47%);
 }
 
 #home {
@@ -79,7 +79,7 @@ body {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.2;
-    color:hwb(253 4% 49%);
+    color:rgb(196, 170, 24);
 }
 
 .home-content h1::before {
@@ -97,7 +97,7 @@ body {
 .home-content h3 {
     font-size: 32px;
     font-weight: 700;
-    color: rgb(0, 255, 102);
+    color: rgb(0, 170, 255);
 }
 
 .home-content h3::before {
@@ -332,13 +332,13 @@ body {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: hsl(241, 55%, 41%);
+    color: #3a5fb8;
 }
 
 .about-me-text p {
     font-size: 18px;
     line-height: 1.6;
-    color: #555;
+    color: #555555;
 }
 
 #my-purpose {
@@ -365,13 +365,13 @@ body {
 
 .my-purpose-image {
     flex: 1;
-    padding-right: 20px;
+    padding-right: 30px;
     opacity: 0;
     animation: fadeInFromLeft 1s forwards;
 }
 
 .my-purpose-image img {
-    width: 100%;
+    width:100%;
     height: auto;
     border-radius: 10px;
 }
@@ -386,7 +386,7 @@ body {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #333;
+    color: #3a5fb8;
 }
 
 .my-purpose-text p {
@@ -456,7 +456,7 @@ body {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 30px;
-    color: #333;
+    color:#3a5fb8;
 }
 
 .education-images {
@@ -540,7 +540,7 @@ body {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 30px;
-    color: #333;
+    color: #3a5fb8;
 }
 
 .certifications-list {
@@ -596,7 +596,7 @@ body {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 30px;
-    color: #333;
+    color: #3a5fb8;
 }
 
 .experience-item {
@@ -612,13 +612,13 @@ body {
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #333;
+    color: rgb(196, 170, 24);
 }
 
 .experience-item h3 {
     font-size: 22px;
     font-weight: 500;
-    color: #666;
+    color:  rgb(0, 170, 255);
     margin-bottom: 10px;
 }
 
@@ -665,7 +665,7 @@ body {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 30px;
-    color: #333;
+    color: #3a5fb8;
 }
 
 .skill-category {
@@ -687,7 +687,7 @@ body {
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #333;
+    color: #af44c4;
 }
 
 .skill-category p {
@@ -722,7 +722,7 @@ body {
     font-weight: 700;
     margin-bottom: 30px;
     text-align: center;
-    color: #333;
+    color: #3a5fb8;
 }
 
 .hobby {
@@ -753,7 +753,7 @@ body {
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #333;
+    color: #2ba486cd;
 }
 
 .hobby-text p {
@@ -772,7 +772,7 @@ body {
 
 .charity h1 {
     font-size: 2.5rem;
-    color: #333;
+    color: #3a5fb8;
     margin-bottom: 20px;
 }
 
@@ -827,7 +827,7 @@ body {
 .contact h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #081b29;
+    color: #3a5fb8;
 }
 
 .contact p {
