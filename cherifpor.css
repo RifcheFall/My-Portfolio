@@ -61,18 +61,37 @@ background-color: gainsboro;
 }
 
 #home {
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     height: 100vh;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    /* height: 100vh;
     background: url('pict/Fa.png') no-repeat center center;
     background-size: contain;
     display: flex;
-    align-items: center;
     padding: 0 15px;
     position: relative;
-    margin-top: 80px; 
+    margin-top: 80px;  */
 }
 
 .home-content {
-    max-width: 500px;
+    width: 50%;
+    padding-right: 30px;
+    /* max-width: 500px; */
+}
+
+.home-profile-img {
+    background: url('pict/Fa.png') no-repeat center center;
+    background-size: contain;
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    position: relative;
+    align-items: center;
 }
 
 .home-content h1 {
@@ -111,6 +130,18 @@ background-color: gainsboro;
     background: hsl(70, 62%, 53%);
     animation: showRight 1s ease forwards;
     animation-delay: 1.3s;
+}
+
+.home-profile-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: hsl(70, 62%, 53%);
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.6s;
 }
 
 .home-content p {
