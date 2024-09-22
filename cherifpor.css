@@ -93,7 +93,7 @@ background-color: gainsboro;
     background: url('pict/Fa.png') no-repeat center center;
     background-size: contain;
     display: flex;
-    width: 50%;
+    width: 60%;
     height: 100vh;
     position: relative;
     align-items: center;
