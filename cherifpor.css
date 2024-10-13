@@ -712,7 +712,7 @@ background-color: gainsboro;
 }
 
 .skill-category:hover {
-    transform: scale(1.02);
+    transform: scale(1.03);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -724,7 +724,7 @@ background-color: gainsboro;
 }
 
 .skill-category p {
-    font-size: 18px;
+    font-size: 19px;
     color: #555;
     line-height: 1.6;
 }
