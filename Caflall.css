@@ -520,7 +520,6 @@ background-color: gainsboro;
 }
 
 /* Gallery grid layout */
-/* .gallery-grid { */
 .gallery {
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
