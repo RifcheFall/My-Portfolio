@@ -65,6 +65,10 @@ background-color: gainsboro;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     height: 100vh;
     margin-top: 30px;
     display: flex;
@@ -73,14 +77,14 @@ background-color: gainsboro;
     background: url('pict/Fa.png') no-repeat center center;
     background-size: contain;
     display: flex;
-    align-items: center;
     padding: 0 15px;
     position: relative;
     margin-top: 80px;  */
 }
 
 .home-content {
-    width: 50%;
+
+    width: 60%;
     padding-right: 30px;
     /* max-width: 500px; */
 }
@@ -89,9 +93,10 @@ background-color: gainsboro;
     background: url('pict/Fa.png') no-repeat center center;
     background-size: contain;
     display: flex;
-    width: 50%;
+    width: 60%;
     height: 100vh;
     position: relative;
+    align-items: center;
 }
 
 .home-content h1 {
@@ -235,7 +240,7 @@ background-color: gainsboro;
 
 .home-sci {
     position: absolute;
-    bottom: 40px;
+    bottom: 50px;
     width: 170px;
     display: flex;
     justify-content: space-between;
@@ -707,7 +712,7 @@ background-color: gainsboro;
 }
 
 .skill-category:hover {
-    transform: scale(1.02);
+    transform: scale(1.03);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -719,7 +724,7 @@ background-color: gainsboro;
 }
 
 .skill-category p {
-    font-size: 18px;
+    font-size: 19px;
     color: #555;
     line-height: 1.6;
 }
